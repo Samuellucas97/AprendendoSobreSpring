@@ -1,8 +1,15 @@
-# Aprendendo sobre Spring
+# Primeiros passos em Spring
+
+<p align="center">
+<img src="http://www.t2ti.com/images/siscom-spring/spring.png" width="22%"  />
+</p>
+
 
 ## Introdução  
   
-Contém um pequeno projeto feito em 🍁Spring🍁 com fins de aprendizado😁.
+Contém um pequeno projeto feito em 🍁Spring🍁 com fins de aprendizado😁 no qual implementa-se juntamente integração com banco de dados [PostgreSQL].
+
+[PostgreSQL]:https://www.postgresql.org
 
 ## Referência  
 :link:[Spring Boot - Tutorial](https://www.vogella.com/tutorials/SpringBoot/article.html)  
