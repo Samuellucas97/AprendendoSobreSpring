@@ -1,0 +1,37 @@
+server:
+  error:
+    include-stacktrace: always
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/anime
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+  endpoint:
+    health:
+      show-details: when_authorized
+
+
+info:
+  app: Spring boot essentials 2
+  website: epet.imd.ufrn.br/
+  github: https://github.com/PETCC-UFRN/ePET-visual
