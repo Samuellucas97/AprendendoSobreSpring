@@ -1,10 +1,3 @@
-# Practicing programming Spring Framework
-
-<p align="center">
-<img src="http://www.t2ti.com/images/siscom-spring/spring.png" width="22%"  />
-</p>
-
-
 ## About 
 
 
